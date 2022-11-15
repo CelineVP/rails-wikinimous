@@ -1,0 +1,6 @@
+<div class="container">
+  <h1>Article title : <%= @article.title %></h1>
+  <p>Description : <%= @article.content %></p>
+
+  <%= link_to "edit", edit_article_path(@article) %>
+</div>
